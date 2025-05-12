@@ -1,0 +1,10 @@
+[project]
+name = "netbox-python-cloud-populate"
+version = "0.1.0"
+description = "Simple python script to populate netbox with some regions"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pynetbox==7.2.0",
+    "pyyaml==6.0.1",
+]
